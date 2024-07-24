@@ -1,0 +1,37 @@
+body{
+    background-color: #7fffd4;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+}
+input{
+    width: 400px;
+    border: none;
+    border-radius: 4px;
+    background-color: antiquewhite;
+}
+button{
+    margin-top: 10px;
+    width: 90px;
+    height: 32px;
+    background-color: rgb(129, 139, 136);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.quote-input{
+    height: 60px;
+
+}
+.auther-input{
+    height: 22px;
+    width: 300px;
+}
+.remove-btn{
+    background-color: red;
+}
